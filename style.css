@@ -235,11 +235,13 @@ nav button {
 /* style for scroll marker when selected */
 .trending img::scroll-marker:target-current {
     background-color: rgb(255, 255, 255);
+    width: 28px;
+    border-radius: 25px;
 }
 
 .trending::-webkit-scrollbar {
     display: none;
-    /*don't show browser scrollbar*/
+    /*doesn't show browser scrollbar*/
 }
 
 
@@ -862,4 +864,5 @@ footer p {
     to {
         opacity: 0;
     }
+
 }
